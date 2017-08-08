@@ -10,7 +10,7 @@
     "start": "node devServer.js",
     "prod": "NODE_ENV=production node devServer.js",
     "postinstall": "webpack -p",
-    "tunnel": "browser-sync start --proxy localhost:7770 --tunnel wesbos",
+    "tunnel": "browser-sync start --proxy localhost:7770 --tunnel wesbos"
   },
   "repository": {
     "type": "git",
